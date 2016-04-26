@@ -1,6 +1,6 @@
 module.exports = function() {
   return {
     minPage: '1',
-    maxPage: '54'
+    maxPage: '86'
   }
 }
