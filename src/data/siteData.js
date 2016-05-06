@@ -78,8 +78,8 @@ module.exports = function() {
             helper: 'mareste imaginea'
           },
           {
-            icon: 'audio',
-            helper: 'asculta clipul audio'
+            icon: 'video',
+            helper: 'vezi clipul video'
           },
           {
             icon: 'ex',
