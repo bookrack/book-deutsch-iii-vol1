@@ -851,6 +851,24 @@ module.exports = function() {
       ]
     },
     '13': {
+      static: [
+        {
+          image: 'pg13ex2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '40%'
+            },
+            zone: {
+              top: '40%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       exercise: [
         {
           type: 'typer',
@@ -1088,6 +1106,82 @@ module.exports = function() {
         }
       ]
     },
+    '15': {
+      static: [
+        {
+          image: 'pg15static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '15%'
+            },
+            zone: {
+              top: '20%',
+              bottom: '56%',
+              left: '18%',
+              width: '36%'
+            }
+          }
+        },
+        {
+          image: 'pg15static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '20%'
+            },
+            zone: {
+              top: '20%',
+              bottom: '61%',
+              left: '59%',
+              width: '36%'
+            }
+          }
+        },
+        {
+          image: 'pg15static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '44%'
+            },
+            zone: {
+              top: '44%',
+              bottom: '40%',
+              left: '48%',
+              width: '40%'
+            }
+          }
+        },
+        {
+          image: 'pg15static4',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '61%'
+            },
+            zone: {
+              top: '61%',
+              bottom: '21%',
+              left: '67%',
+              width: '27%'
+            }
+          }
+        }
+      ]
+    },
     '16': {
       video: [
         {
@@ -1125,6 +1219,24 @@ module.exports = function() {
       ]
     },
     '18': {
+      static: [
+        {
+          image: 'pg18ex3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '69%'
+            },
+            zone: {
+              top: '69%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -1143,6 +1255,24 @@ module.exports = function() {
       ]
     },
     '19': {
+      static: [
+        {
+          image: 'pg19nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '67%'
+            },
+            zone: {
+              top: '67%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -1160,7 +1290,45 @@ module.exports = function() {
         }
       ]
     },
+    '20': {
+      static: [
+        {
+          image: 'pg20ex5',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '17%'
+            }
+          }
+        }
+      ]
+    },
     '21': {
+      static: [
+        {
+          image: 'pg21ex7',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '21%'
+            },
+            zone: {
+              top: '21%',
+              bottom: '46%'
+            }
+          }
+        }
+      ],
       exercise: [
         {
           type: 'typer',
@@ -1231,6 +1399,86 @@ module.exports = function() {
               solution: 'Vogel'
             }
           ]
+        }
+      ]
+    },
+    '22': {
+      static: [
+        {
+          image: 'pg22-23ex9',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '13%'
+            },
+            zone: {
+              top: '13%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '23': {
+      static: [
+        {
+          image: 'pg22-23ex9',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '13%'
+            },
+            zone: {
+              top: '13%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '24': {
+      static: [
+        {
+          image: 'pg24ex10static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '14%'
+            },
+            zone: {
+              top: '14%',
+              bottom: '7%',
+              left: '7%',
+              width: '49%'
+            }
+          }
+        },
+        {
+          image: 'pg24ex10static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '20%'
+            },
+            zone: {
+              top: '16%',
+              bottom: '31%',
+              left: '57%',
+              width: '39%'
+            }
+          }
         }
       ]
     },
@@ -1550,6 +1798,64 @@ module.exports = function() {
         }
       ]
     },
+    '29': {
+      static: [
+        {
+          image: 'pg29static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '27%'
+            },
+            zone: {
+              top: '27%',
+              bottom: '37%',
+              left: '12%',
+              width: '31%'
+            }
+          }
+        },
+        {
+          image: 'pg29static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '33%'
+            },
+            zone: {
+              top: '31%',
+              bottom: '42%',
+              left: '45%',
+              width: '48%'
+            }
+          }
+        },
+        {
+          image: 'pg29static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '64%'
+            },
+            zone: {
+              top: '64%',
+              bottom: '1%',
+              left: '8%',
+              width: '39%'
+            }
+          }
+        }
+      ]
+    },
     '30': {
       video: [
         {
@@ -1753,6 +2059,24 @@ module.exports = function() {
       ]
     },
     '33': {
+      static: [
+        {
+          image: 'pg33nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '60%'
+            },
+            zone: {
+              top: '60%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -1789,6 +2113,24 @@ module.exports = function() {
       ]
     },
     '35': {
+      static: [
+        {
+          image: 'pg35nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '60%'
+            },
+            zone: {
+              top: '60%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -1930,7 +2272,45 @@ module.exports = function() {
         }
       ]
     },
+    '38': {
+      static: [
+        {
+          image: 'pg38ex12',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '15%'
+            },
+            zone: {
+              top: '15%',
+              bottom: '27%'
+            }
+          }
+        }
+      ]
+    },
     '39': {
+      static: [
+        {
+          image: 'pg39nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '69%'
+            },
+            zone: {
+              top: '69%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -1948,7 +2328,81 @@ module.exports = function() {
         }
       ]
     },
+    '40': {
+      static: [
+        {
+          image: 'pg40ex15',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '18%'
+            },
+            zone: {
+              top: '18%',
+              bottom: '18%'
+            }
+          }
+        }
+      ]
+    },
+    '41': {
+      static: [
+        {
+          image: 'pg41ex17',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '48%'
+            }
+          }
+        },
+        {
+          image: 'pg41marions',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '54%'
+            },
+            zone: {
+              top: '54%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
     '42': {
+      static: [
+        {
+          image: 'pg42ichhabe',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '74%'
+            },
+            zone: {
+              top: '74%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -2320,6 +2774,64 @@ module.exports = function() {
         }
       ]
     },
+    '47': {
+      static: [
+        {
+          image: 'pg47static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '22%'
+            },
+            zone: {
+              top: '22%',
+              bottom: '48%',
+              left: '10%',
+              width: '40%'
+            }
+          }
+        },
+        {
+          image: 'pg47static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '28%'
+            },
+            zone: {
+              top: '22%',
+              bottom: '48%',
+              left: '51%',
+              width: '40%'
+            }
+          }
+        },
+        {
+          image: 'pg47static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '58%'
+            },
+            zone: {
+              top: '58%',
+              bottom: '5%',
+              left: '8%',
+              width: '38%'
+            }
+          }
+        }
+      ]
+    },
     '48': {
       video: [
         {
@@ -2357,6 +2869,24 @@ module.exports = function() {
       ]
     },
     '50': {
+      static: [
+        {
+          image: 'pg50nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '46%'
+            },
+            zone: {
+              top: '46%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -2392,7 +2922,77 @@ module.exports = function() {
         }
       ]
     },
+    '52': {
+      static: [
+        {
+          image: 'pg52ex4static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '15%'
+            },
+            zone: {
+              top: '15%',
+              bottom: '54%'
+            }
+          }
+        },
+        {
+          image: 'pg52ex4static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '47%'
+            },
+            zone: {
+              top: '47%',
+              bottom: '28%'
+            }
+          }
+        },
+        {
+          image: 'pg52ex4static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '73%'
+            },
+            zone: {
+              top: '73%',
+              bottom: '4%'
+            }
+          }
+        }
+      ]
+    },
     '53': {
+      static: [
+        {
+          image: 'pg53nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '46%'
+            },
+            zone: {
+              top: '46%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -2482,7 +3082,81 @@ module.exports = function() {
         }
       ]
     },
+    '58': {
+      static: [
+        {
+          image: 'pg58nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '3%'
+            },
+            zone: {
+              top: '3%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
+    '60': {
+      static: [
+        {
+          image: 'pg60ex12static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '42%'
+            }
+          }
+        },
+        {
+          image: 'pg60ex12static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '3%'
+            }
+          }
+        }
+      ]
+    },
     '61': {
+      static: [
+        {
+          image: 'pg61nicht',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '18%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -2531,6 +3205,46 @@ module.exports = function() {
             zone: {
               top: '11%',
               bottom: '4%'
+            }
+          }
+        }
+      ]
+    },
+    '64': {
+      static: [
+        {
+          image: 'pg64ex16',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '14%'
+            },
+            zone: {
+              top: '14%',
+              bottom: '40%'
+            }
+          }
+        }
+      ]
+    },
+    '65': {
+      static: [
+        {
+          image: 'pg65ex2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '35%'
+            },
+            zone: {
+              top: '35%',
+              bottom: '50%'
             }
           }
         }
@@ -2637,6 +3351,42 @@ module.exports = function() {
               solution: 'Eine Viertelstunde hat fünfzehn Minuten.'
             }
           ]
+        }
+      ]
+    },
+    '71': {
+      static: [
+        {
+          image: 'pg71static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '20%'
+            },
+            zone: {
+              top: '20%',
+              bottom: '40%'
+            }
+          }
+        },
+        {
+          image: 'pg71static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '61%'
+            },
+            zone: {
+              top: '61%',
+              bottom: '3%'
+            }
+          }
         }
       ]
     },
@@ -2957,6 +3707,90 @@ module.exports = function() {
               solution: 'pg75ex8-4'
             }
           ]
+        }
+      ]
+    },
+    '77': {
+      static: [
+        {
+          image: 'pg77ex8static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '12%'
+            },
+            zone: {
+              top: '12%',
+              bottom: '71%'
+            }
+          }
+        },
+        {
+          image: 'pg77ex8static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '30%'
+            },
+            zone: {
+              top: '30%',
+              bottom: '54%'
+            }
+          }
+        },
+        {
+          image: 'pg77ex8static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '47%'
+            },
+            zone: {
+              top: '47%',
+              bottom: '37%'
+            }
+          }
+        },
+        {
+          image: 'pg77ex8static4',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '64%'
+            },
+            zone: {
+              top: '64%',
+              bottom: '20%'
+            }
+          }
+        },
+        {
+          image: 'pg77ex8static5',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '81%'
+            },
+            zone: {
+              top: '81%',
+              bottom: '3%'
+            }
+          }
         }
       ]
     }
