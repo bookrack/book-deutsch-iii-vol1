@@ -79,7 +79,7 @@ module.exports = function() {
           },
           {
             icon: 'video',
-            helper: 'vezi clipul video'
+            helper: 'vizioneaza clipul'
           },
           {
             icon: 'ex',
