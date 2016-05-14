@@ -81,7 +81,7 @@ module.exports = function() {
         {
           image: 'pg5static1',
           audio: {
-            source: 'fundal',
+            source: 'pg5ex1-2',
             state: 'stopped'
           },
           trigger: {
@@ -99,7 +99,7 @@ module.exports = function() {
         {
           image: 'pg5static2',
           audio: {
-            source: 'fundal',
+            source: 'pg5ex1-2',
             state: 'stopped'
           },
           trigger: {
@@ -117,7 +117,7 @@ module.exports = function() {
         {
           image: 'pg5static3',
           audio: {
-            source: 'fundal',
+            source: 'pg5ex1-3',
             state: 'stopped'
           },
           trigger: {
@@ -244,7 +244,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Unde sunt paianjenii? Cauta-i si completeaza. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Unde sunt paianjenii? Cauta-i si completeaza. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -961,14 +961,14 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza cu  “sch” sau “ch”.  Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Completeaza cu  “sch” sau “ch”.  Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '39%',
-                left: '15.3%',
+                top: '38.9%',
+                left: '10.5%',
                 width: '4%'
               },
               model: '',
@@ -977,8 +977,8 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '39%',
-                left: '23.3%',
+                top: '38.9%',
+                left: '20.3%',
                 width: '4%'
               },
               model: '',
@@ -987,8 +987,8 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '39%',
-                left: '31.5%',
+                top: '38.9%',
+                left: '29.7%',
                 width: '4%'
               },
               model: '',
@@ -997,8 +997,8 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '43.2%',
-                left: '23.3%',
+                top: '43.7%',
+                left: '19.3%',
                 width: '4%'
               },
               model: '',
@@ -1007,7 +1007,7 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '43.2%',
+                top: '43.7%',
                 left: '45.5%',
                 width: '4%'
               },
@@ -1017,18 +1017,18 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '47%',
-                left: '8.5%',
+                top: '48%',
+                left: '2.5%',
                 width: '4%'
               },
               model: '',
-              solution: 'sch'
+              solution: 'Sch'
             },
             {
               identifier: 'seven',
               position: {
-                top: '47%',
-                left: '22.3%',
+                top: '48%',
+                left: '18.3%',
                 width: '4%'
               },
               model: '',
@@ -1037,8 +1037,8 @@ module.exports = function() {
             {
               identifier: 'eight',
               position: {
-                top: '50.7%',
-                left: '34.7%',
+                top: '52.2%',
+                left: '32.7%',
                 width: '4%'
               },
               model: '',
@@ -1047,8 +1047,8 @@ module.exports = function() {
             {
               identifier: 'nine',
               position: {
-                top: '50.7%',
-                left: '42.3%',
+                top: '52.2%',
+                left: '41.3%',
                 width: '4%'
               },
               model: '',
@@ -1057,8 +1057,8 @@ module.exports = function() {
             {
               identifier: 'ten',
               position: {
-                top: '54.2%',
-                left: '8.7%',
+                top: '56.2%',
+                left: '3.7%',
                 width: '4%'
               },
               model: '',
@@ -1067,8 +1067,8 @@ module.exports = function() {
             {
               identifier: 'eleven',
               position: {
-                top: '54.2%',
-                left: '22%',
+                top: '56.2%',
+                left: '18%',
                 width: '4%'
               },
               model: '',
@@ -1077,8 +1077,8 @@ module.exports = function() {
             {
               identifier: 'twelve',
               position: {
-                top: '54.2%',
-                left: '29.3%',
+                top: '56.2%',
+                left: '26.3%',
                 width: '4%'
               },
               model: '',
@@ -1105,7 +1105,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Priveste imaginea si completeaza unde sunt. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Priveste imaginea si completeaza unde sunt. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1421,7 +1421,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza facand comparatie. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Completeaza facand comparatie. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1507,9 +1507,6 @@ module.exports = function() {
             state: 'stopped'
           },
           trigger: {
-            button: {
-              top: '13%'
-            },
             zone: {
               top: '13%',
               bottom: '3%'
@@ -1575,7 +1572,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Priveste imaginea si numara animalele. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Priveste imaginea si numara animalele. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1687,7 +1684,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste propozitiile si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Citeste propozitiile si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1719,11 +1716,11 @@ module.exports = function() {
               },
               answerFalse: {
                 top: '9%',
-                left: '54%'
+                left: '8%'
               },
               answerTrue: {
                 top: '9%',
-                left: '8%'
+                left: '54%'
               }
             },
             {
@@ -1737,11 +1734,11 @@ module.exports = function() {
               },
               answerTrue: {
                 top: '9%',
-                left: '54%'
+                left: '8%'
               },
               answerFalse: {
                 top: '9%',
-                left: '8%'
+                left: '54%'
               }
             },
             {
@@ -1985,7 +1982,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste propozitiile si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Citeste propozitiile si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2245,7 +2242,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si scrie numarul. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Asculta si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2535,7 +2532,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Gaseste opt piese de imbracaminte'
+            text: 'Gaseste opt piese de imbracaminte. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2660,7 +2657,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Cu literele ramase afli ce a spus Fluffy.'
+            text: 'Cu literele ramase afli ce a spus Fluffy. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2867,7 +2864,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste fiecare adjectiv cu opusul lui. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Uneste fiecare adjectiv cu opusul lui. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2944,7 +2941,7 @@ module.exports = function() {
               image: {
                 src: '46-klein.png'
               },
-              solution: 'lang',
+              solution: 'grob',
               solutionImg: {
                 src: '46-klein.png'
               },
@@ -2962,7 +2959,7 @@ module.exports = function() {
               image: {
                 src: '46-kurz.png'
               },
-              solution: 'grob',
+              solution: 'lang',
               solutionImg: {
                 src: '46-kurz.png'
               },
@@ -3126,7 +3123,7 @@ module.exports = function() {
         {
           image: 'pg52ex4static1',
           audio: {
-            source: 'fundal',
+            source: 'pg52ex4-1',
             state: 'stopped'
           },
           trigger: {
@@ -3142,7 +3139,7 @@ module.exports = function() {
         {
           image: 'pg52ex4static2',
           audio: {
-            source: 'fundal',
+            source: 'pg52ex4-2',
             state: 'stopped'
           },
           trigger: {
@@ -3158,7 +3155,7 @@ module.exports = function() {
         {
           image: 'pg52ex4static3',
           audio: {
-            source: 'fundal',
+            source: 'pg52ex4-3',
             state: 'stopped'
           },
           trigger: {
@@ -3306,7 +3303,7 @@ module.exports = function() {
         {
           image: 'pg60ex12static1',
           audio: {
-            source: 'fundal',
+            source: 'pg60ex12',
             state: 'stopped'
           },
           trigger: {
@@ -3466,7 +3463,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Raspunde la intrebari. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Raspunde la intrebari. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3570,7 +3567,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste propozitiile cu imaginile corespunzatoare. Cand ai terminat apasa pe cheita si verification Succes! '
+            text: 'Uneste propozitiile cu imaginile corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes! '
           },
           data: [
             {
@@ -3817,6 +3814,10 @@ module.exports = function() {
           type: 'typer',
           title: 'Schreib die Tiernamen korrekt, hör dann zu und überprüfe!',
           image: 'pg72ex1',
+          audio: {
+            source: 'pg72ex1',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '16%'
@@ -3828,7 +3829,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie corect numele animalelor. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Scrie corect numele animalelor. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3948,7 +3949,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste intrebarea cu raspunsul corect. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Uneste intrebarea cu raspunsul corect. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -4225,6 +4226,10 @@ module.exports = function() {
           type: 'checker',
           title: 'Hör zu und kreuze RICHTIG oder FALSCH an!',
           image: 'pg73ex4',
+          audio: {
+            source: 'pg73ex4',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '9%'
@@ -4236,7 +4241,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si bifeaza R(corect) si F (fals).Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Asculta si bifeaza R(corect) si F (fals).Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -4368,7 +4373,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste propozitiile si deseneaza limbile ceasului. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Citeste propozitiile si deseneaza limbile ceasului. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
