@@ -81,7 +81,7 @@ module.exports = function() {
         {
           image: 'pg5static1',
           audio: {
-            source: 'pg5ex1-2',
+            source: 'pg5ex1-1',
             state: 'stopped'
           },
           trigger: {
@@ -1105,14 +1105,14 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Priveste imaginea si completeaza unde sunt. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Priveste imaginea si completeaza propozitiile. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '42%',
-                left: '21%',
+                top: '62.8%',
+                left: '41%',
                 width: '18%'
               },
               model: '',
@@ -1121,8 +1121,8 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '45%',
-                left: '22%',
+                top: '65.8%',
+                left: '42%',
                 width: '14%'
               },
               model: '',
@@ -1131,8 +1131,8 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '48%',
-                left: '22%',
+                top: '68.8%',
+                left: '42%',
                 width: '14%'
               },
               model: '',
@@ -1141,8 +1141,8 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '51%',
-                left: '22%',
+                top: '71.8%',
+                left: '42%',
                 width: '14%'
               },
               model: '',
@@ -1151,8 +1151,8 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '54%',
-                left: '25%',
+                top: '74.8%',
+                left: '46%',
                 width: '12%'
               },
               model: '',
@@ -1161,8 +1161,8 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '57%',
-                left: '23%',
+                top: '77.8%',
+                left: '44%',
                 width: '13%'
               },
               model: '',
@@ -1171,8 +1171,8 @@ module.exports = function() {
             {
               identifier: 'seven',
               position: {
-                top: '60%',
-                left: '23%',
+                top: '80.8%',
+                left: '43%',
                 width: '16%'
               },
               model: '',
@@ -1228,7 +1228,7 @@ module.exports = function() {
           },
           trigger: {
             button: {
-              top: '44%'
+              top: '49%'
             },
             zone: {
               top: '44%',
@@ -1507,6 +1507,9 @@ module.exports = function() {
             state: 'stopped'
           },
           trigger: {
+            button: {
+              top: '13%'
+            },
             zone: {
               top: '13%',
               bottom: '3%'
@@ -1971,6 +1974,10 @@ module.exports = function() {
           type: 'checker',
           title: 'Hör zu, lies und kreuze RICHTIG oder FALSCH an!',
           image: 'pg32ex3',
+          audio: {
+            source: 'pg32ex3',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '73%'
@@ -1989,7 +1996,7 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '40.4%',
+                top: '75.4%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2007,7 +2014,7 @@ module.exports = function() {
               identifier: 'two',
               model: '',
               position: {
-                top: '43.2%',
+                top: '78.2%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2025,7 +2032,7 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '45.9%',
+                top: '80.9%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2043,7 +2050,7 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '48.6%',
+                top: '83.6%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2061,7 +2068,7 @@ module.exports = function() {
               identifier: 'five',
               model: '',
               position: {
-                top: '51.3%',
+                top: '86.3%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2079,7 +2086,7 @@ module.exports = function() {
               identifier: 'six',
               model: '',
               position: {
-                top: '54.1%',
+                top: '89.1%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2097,7 +2104,7 @@ module.exports = function() {
               identifier: 'seven',
               model: '',
               position: {
-                top: '56.8%',
+                top: '91.8%',
                 left: '55.2%',
                 width: '8.4%',
                 height: '2.5%'
@@ -2664,7 +2671,7 @@ module.exports = function() {
               identifier: 'one',
               position: {
                 top: '31.4%',
-                left: '36.2%',
+                left: '54%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2675,7 +2682,7 @@ module.exports = function() {
               identifier: 'two',
               position: {
                 top: '31.4%',
-                left: '38%',
+                left: '55.8%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2686,7 +2693,7 @@ module.exports = function() {
               identifier: 'three',
               position: {
                 top: '31.4%',
-                left: '39.8%',
+                left: '57.6%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2697,7 +2704,7 @@ module.exports = function() {
               identifier: 'four',
               position: {
                 top: '31.4%',
-                left: '42.7%',
+                left: '60.6%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2708,7 +2715,7 @@ module.exports = function() {
               identifier: 'five',
               position: {
                 top: '31.4%',
-                left: '44.5%',
+                left: '62.5%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2719,7 +2726,7 @@ module.exports = function() {
               identifier: 'six',
               position: {
                 top: '31.4%',
-                left: '46.3%',
+                left: '64.3%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2730,7 +2737,7 @@ module.exports = function() {
               identifier: 'seven',
               position: {
                 top: '35.1%',
-                left: '32.7%',
+                left: '50.5%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2741,7 +2748,7 @@ module.exports = function() {
               identifier: 'eight',
               position: {
                 top: '35.1%',
-                left: '34.4%',
+                left: '52.4%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2752,7 +2759,7 @@ module.exports = function() {
               identifier: 'nine',
               position: {
                 top: '35.1%',
-                left: '36.2%',
+                left: '54.2%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2763,7 +2770,7 @@ module.exports = function() {
               identifier: 'ten',
               position: {
                 top: '35.1%',
-                left: '38%',
+                left: '55.9%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2774,7 +2781,7 @@ module.exports = function() {
               identifier: 'eleven',
               position: {
                 top: '35.1%',
-                left: '39.7%',
+                left: '57.7%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2785,7 +2792,7 @@ module.exports = function() {
               identifier: 'twelve',
               position: {
                 top: '35.1%',
-                left: '41.5%',
+                left: '59.4%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2796,7 +2803,7 @@ module.exports = function() {
               identifier: 'thirteen',
               position: {
                 top: '35.1%',
-                left: '44.5%',
+                left: '62.3%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2807,7 +2814,7 @@ module.exports = function() {
               identifier: 'fourteen',
               position: {
                 top: '35.1%',
-                left: '46.3%',
+                left: '64.1%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2818,7 +2825,7 @@ module.exports = function() {
               identifier: 'fifteen',
               position: {
                 top: '35.1%',
-                left: '48%',
+                left: '65.8%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2829,7 +2836,7 @@ module.exports = function() {
               identifier: 'sixteen',
               position: {
                 top: '35.1%',
-                left: '49.7%',
+                left: '67.6%',
                 width: '1.9%',
                 height: '2.2%'
               },
@@ -2840,7 +2847,7 @@ module.exports = function() {
               identifier: 'seventeen',
               position: {
                 top: '35.1%',
-                left: '51.4%',
+                left: '69.4%',
                 width: '1.9%',
                 height: '2.2%'
               },
