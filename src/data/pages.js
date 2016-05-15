@@ -961,7 +961,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza cu  “sch” sau “ch”.  Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Completeaza cu  “sch” sau “ch”. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -3779,6 +3779,160 @@ module.exports = function() {
         }
       ]
     },
+    '69': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Ergänze!',
+          image: 'pg69ex10',
+          trigger: {
+            button: {
+              top: '65%'
+            },
+            zone: {
+              top: '62%',
+              bottom: '7%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Completeaza cu forma corecta. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35.7%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Am'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '35.7%',
+                left: '25.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'um'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '38.5%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Im'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '41.5%',
+                left: '19.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'im'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '41.5%',
+                left: '48.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'am'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '43.7%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Um'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '43.7%',
+                left: '50.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'um'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '49.3%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Im'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '51.9%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Am'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '51.9%',
+                left: '58.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'am'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '57.4%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Am'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '60.1%',
+                left: '9.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'Von'
+            },
+            {
+              identifier: 'thirteen',
+              position: {
+                top: '60.1%',
+                left: '19.5%',
+                width: '7%'
+              },
+              model: '',
+              solution: 'bis'
+            },
+          ]
+        }
+      ]
+    },
     '71': {
       static: [
         {
@@ -4248,7 +4402,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si bifeaza R(corect) si F (fals).Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Asculta si bifeaza R(corect) si F (fals). Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
